@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {"path": "pages/index/index", "style": {"navigationStyle": "custom"}},
+    {"path": "pages/login/login", "style": {"navigationStyle": "custom"}},
+    {"path": "pages/register/register", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/news/news-detail", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/news/news-list", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/order/order-list", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/order/order-detail", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/elder/elder", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/volunteer/volunteer", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/admin/admin", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/admin/user-detail", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/guardian/guardian", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}},
+    {"path": "pages/guardian/dashboard", "style": {"navigationBarTitleText": " ", "navigationBarBackgroundColor": "#f0f4f8"}}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": " ",
+    "navigationBarBackgroundColor": "#f0f4f8",
+    "backgroundColor": "#F4F7FC"
+  }
+}

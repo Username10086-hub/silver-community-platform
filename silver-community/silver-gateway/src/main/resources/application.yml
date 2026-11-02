@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: silver-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: user-service-route
+          uri: lb://service-user
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=1
+        - id: order-service-route
+          uri: lb://service-order
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - StripPrefix=1
+
+server:
+  port: 8080
